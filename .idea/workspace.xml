@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled2/sample/Main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled2/sample/Main$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled2/sample/Main$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled2/sample/Main$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled2/sample/Main$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled2/sample/Main$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled2/sample/Main$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled2/sample/Main$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled2/sample/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled2/sample/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Main.java" afterDir="false" />
+    </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -56,21 +65,25 @@
     <session id="-1510661567">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.21" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.23" value="1" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="fxml" value="235" />
-          <entry key="java" value="2473" />
+          <entry key="java" value="2839" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2473" />
+          <entry key="JAVA" value="3578" />
           <entry key="XML" value="235" />
         </counts>
       </usages-collector>
@@ -96,10 +109,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
-              <caret line="106" selection-start-line="106" selection-end-line="107" />
+            <state relative-caret-position="243">
+              <caret line="181" column="121" selection-start-line="181" selection-start-column="121" selection-end-line="181" selection-end-column="121" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#3674#4333#0" expanded="true" />
+                <element signature="e#4332#4333#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -107,10 +122,18 @@
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>prin</find>
+    </findStrings>
+  </component>
   <component name="FindManager">
     <FindUsagesManager>
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -129,11 +152,12 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="511" />
-    <option name="y" value="-19" />
-    <option name="width" value="1039" />
+    <option name="x" value="510" />
+    <option name="y" value="-20" />
+    <option name="width" value="1040" />
     <option name="height" value="735" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectReloadState">
     <option name="STATE" value="0" />
   </component>
@@ -142,7 +166,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -165,6 +188,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -178,7 +202,7 @@
     <property name="OverrideImplement.combined" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542553635060" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542877671595" />
     <property name="dynamic.classpath" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
@@ -284,17 +308,22 @@
       <updated>1359379246138</updated>
       <workItem from="1359379250712" duration="1302000" />
       <workItem from="1542534997649" duration="13461000" />
-      <workItem from="1542556743413" duration="317000" />
+      <workItem from="1542556743413" duration="583000" />
+      <workItem from="1542873963242" duration="3960000" />
+      <workItem from="1543051360163" duration="348000" />
+      <workItem from="1544041745514" duration="597000" />
+      <workItem from="1544082737300" duration="4131000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15080000" />
+    <option name="totallyTimeSpent" value="24382000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.21677852" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.062416106" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" />
       <window_info id="Designer" order="3" />
@@ -304,7 +333,7 @@
       <window_info id="Capture Tool" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32844576" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32844576" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -315,9 +344,9 @@
       <window_info anchor="bottom" id="Changes" order="10" />
       <window_info anchor="bottom" id="Profiler" order="11" />
       <window_info anchor="bottom" id="Event Log" order="12" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.32937685" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32844576" />
       <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="15" visible="true" weight="0.32991204" />
+      <window_info anchor="bottom" id="Terminal" order="15" weight="0.20967741" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -377,10 +406,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="106" selection-start-line="106" selection-end-line="107" />
+        <state relative-caret-position="243">
+          <caret line="181" column="121" selection-start-line="181" selection-start-column="121" selection-end-line="181" selection-end-column="121" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#3674#4333#0" expanded="true" />
+            <element signature="e#4332#4333#0" expanded="true" />
           </folding>
         </state>
       </provider>
