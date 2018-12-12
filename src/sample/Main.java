@@ -12,13 +12,10 @@ import javafx.scene.layout.StackPane;
 import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 import javafx.scene.control.Button;
-import org.omg.CORBA.BAD_INV_ORDER;
 
 import javax.swing.*;
 import javax.swing.filechooser.FileNameExtensionFilter;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 import java.io.File;
 import java.io.FileInputStream;
 
@@ -70,9 +67,6 @@ public class Main extends Application {
         newMapButton.setTranslateX((int) camera.getWidth() + 220);
         newMapButton.setTranslateY((int) H - 35);
         newMapButton.setPrefSize(200, 20);
-
-       /* ((ImageView) hero).setFitHeight(100);
-        ((ImageView) hero).setFitWidth(50);*/
         StackPane panel = new StackPane();
         panel.getChildren().add(newCarButton);
         panel.getChildren().add(newMapButton);
@@ -117,9 +111,6 @@ public class Main extends Application {
                             dungeon.getChildren().add(hero);
 
                         }
-                        //if the user click on save in Jfilechooser
-
-
                         else if (result == JFileChooser.CANCEL_OPTION) {
                             System.out.println("No File Select");
                         }
@@ -145,7 +136,7 @@ public class Main extends Application {
 
                             Image auxMapImage = new Image("file:" + path);
                             ImageView auxMap = new ImageView(auxMapImage);
-                            if (auxMap.getFitWidth()>= H || auxMap.getBoundsInLocal().getWidth() > 600) {
+                            if (auxMap.getFitWidth() >= H || auxMap.getBoundsInLocal().getWidth() > 600) {
                                 dungeon.getChildren().remove(map);
                                 dungeon.getChildren().remove(hero);
                                 dungeon.getChildren().remove(panel);
@@ -234,9 +225,7 @@ public class Main extends Application {
             public void handle(long now) {
                 try {
                     Thread.sleep(55);
-                } catch (InterruptedException e) {
-
-                }
+                } catch (InterruptedException e) { }
                 int d = 0;
                 double dx = 0, dy = 0;
                 if (goNorth) d -= 1;
@@ -246,7 +235,6 @@ public class Main extends Application {
                 if (running) {
                     d *= 3;
                 }
-
                 if (rotateFactor > 360 || rotateFactor < -360) {
                     rotateFactor = 0;
                     hero.setRotate(0);
@@ -260,10 +248,7 @@ public class Main extends Application {
                         fis = new FileInputStream(file);
                         d += getNextMove().x;
                         hero.setRotate(rotateFactor += getNextMove().y);
-
-                    } catch (Exception e1) {
-
-                    }
+                    } catch (Exception e1) { }
                 }
                 dx = (Math.sin(hero.getRotate() * Math.PI / 180) * d);
                 dy = (-(Math.cos(hero.getRotate() * Math.PI / 180) * d));
@@ -320,7 +305,6 @@ public class Main extends Application {
                     color = pixelReader.getColor(Math.abs((int) (px + pi)), Math.abs((int) (py + pj)));
                 }
 
-
                 //Setting the color to the writable image
                 writer.setColor(i, j, color);
             }
@@ -351,8 +335,6 @@ public class Main extends Application {
                 y = fis.read();
             }
         }
-        ;
-
         if (x == 48) x = 0;
         if (y == 48) y = 0;
         if (x == 49) x = 1;
@@ -366,7 +348,6 @@ public class Main extends Application {
             y = -1;
         }
         return new Point(x, y);
-
     }
 
     public static void main(String[] args) {
