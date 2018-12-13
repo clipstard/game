@@ -54,7 +54,7 @@ public class Main extends Application {
         cameraView = new ImageView(camera);
         newCarButton = new Button("Select new Car");
         newMapButton = new Button("Select new map");
-        file = new File("C:/Users/Eugeniu/IdeaProjects/untitled2/src/files/input.in");
+        file = new File(new File(".").getCanonicalPath() + "/src/files/input.in");
         fis = new FileInputStream(file);
         border.setScaleY(2);
         border.setX(0);
